@@ -4,8 +4,8 @@ import { assets, workData } from "../assets/assets";
 const Work = () => {
   return (
     <div id="work" className="px-[12%] py-10 w-full scroll-mt-20">
-      <h4 className="text-center mb-2 text-lg font-Ovo">My portfolio </h4>
-      <h2 className="text-center text-5xl font-Ovo">My latest work</h2>
+      <h4 className="text-center mb-2 text-lg font-Ovo">Meu portfolio </h4>
+      <h2 className="text-center text-5xl font-Ovo">Meus últimos projetos</h2>
       <p className="text-center mx-auto mt-5 mb-12 max-w-2xl font-Ovo">
         Sou João Vitor, desenvolvedor frontend apaixonado por criar interfaces
         digitais interativas e responsivas que encantam os usuários. transformo
@@ -36,7 +36,8 @@ const Work = () => {
         href=""
         className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full px-10 py-3 mx-auto my-20 hover:bg-lightHover duration-300"
       >
-        Show more <img src={assets.right_arrow_bold} alt="" className="w-4" />
+        Mostrar mais{" "}
+        <img src={assets.right_arrow_bold} alt="" className="w-4" />
       </a>
     </div>
   );

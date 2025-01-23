@@ -4,8 +4,8 @@ import { assets, infoList, toolsData } from "../assets/assets";
 const About = () => {
   return (
     <div id="about" className="px-[12%] py-10 w-full  scroll-mt-20">
-      <h4 className="text-center mb-2 text-lg font-Ovo">Introduction</h4>
-      <h2 className="text-center text-5xl font-Ovo">About me</h2>
+      <h4 className="text-center mb-2 text-lg font-Ovo">Introdução</h4>
+      <h2 className="text-center text-5xl font-Ovo">Sobre mim</h2>
 
       <div className="flex w-full flex-col lg:flex-row gap-20 py-20">
         <div className="w-64 sm:w-80 rounded-3xl max-w-none ">
@@ -36,7 +36,9 @@ const About = () => {
             ))}
           </ul>
 
-          <h4 className="my-6 text-gray-700 font-Ovo">Tools I use</h4>
+          <h4 className="my-6 text-gray-700 font-Ovo">
+            Ferramentas que eu uso
+          </h4>
 
           <ul className="flex items-center gap-3 sm:gap-5">
             {toolsData.map((tool, index) => (
