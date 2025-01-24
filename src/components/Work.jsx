@@ -3,14 +3,11 @@ import { assets, workData } from "../assets/assets";
 
 const Work = () => {
   return (
-    <div id="work" className="px-[12%] py-10 w-full scroll-mt-20">
+    <div id="work" className="px-[12%] py-10 w-full scroll-mt-20 ">
       <h4 className="text-center mb-2 text-lg font-Ovo">Meu portfolio </h4>
-      <h2 className="text-center text-5xl font-Ovo">Meus últimos projetos</h2>
-      <p className="text-center mx-auto mt-5 mb-12 max-w-2xl font-Ovo">
-        Sou João Vitor, desenvolvedor frontend apaixonado por criar interfaces
-        digitais interativas e responsivas que encantam os usuários. transformo
-        ideias em soluções visuais funcionais e impactantes.
-      </p>
+      <h2 className="text-center text-5xl mb-16 font-Ovo">
+        Meus últimos projetos
+      </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 my-6 gap-5">
         {workData.map((project, index) => (

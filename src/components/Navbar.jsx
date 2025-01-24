@@ -61,12 +61,12 @@ const Navbar = () => {
 
         {/* Botões de interação (Modo escuro e menu mobile) */}
         <div className="flex items-center gap-4">
-          <button>
+          {/* <button>
             <img src={assets.moon_icon} alt="Modo escuro" className="w-6" />
-          </button>
+          </button> */}
           <a
             href="#contact"
-            className="hidden md:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full"
+            className="hidden md:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full duration-300 hover:shadow-black"
           >
             Contact
             <img src={assets.arrow_icon} alt="" className="w-3" />
