@@ -32,13 +32,13 @@ const Work = () => {
         ))}
       </div>
 
-      <a
+      {/* <a
         href=""
         className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full px-10 py-3 mx-auto my-20 hover:bg-lightHover duration-300"
       >
         Mostrar mais{" "}
         <img src={assets.right_arrow_bold} alt="" className="w-4" />
-      </a>
+      </a> */}
     </div>
   );
 };

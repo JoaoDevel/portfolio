@@ -16,13 +16,6 @@ const About = () => {
           />
         </div>
         <div className="flex-1">
-          <p className="mb-10 max-w-2xl font-Ovo">
-            Sou João Vitor, desenvolvedor frontend apaixonado por criar
-            interfaces digitais interativas e responsivas que encantam os
-            usuários. transformo ideias em soluções visuais funcionais e
-            impactantes.
-          </p>
-
           <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
             {infoList.map(({ icon, iconDark, title, description }, index) => (
               <li

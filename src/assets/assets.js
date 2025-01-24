@@ -97,6 +97,8 @@ export const workData = [
         description: 'UI/UX Design',
         bgImage: '/work-4.png',
     },
+    
+   
 ]
 
 export const serviceData = [
